@@ -76,7 +76,15 @@ span {
   display: flex;
   justify-content: space-evenly;
 }
-i:hover {
-  color: #888;
-  transition: all ease-in 0.2s;
+.icons img {
+  width: 20px;
+  height: 20px;
+}
+.icon:hover {
+  border-radius: 50%;
+}
+.icons img:hover {
+  background: #f6f6f6;
+  fill: #888;
+  /* transition: all ease-in 0.2s; */
 }
