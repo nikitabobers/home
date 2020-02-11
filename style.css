@@ -83,8 +83,8 @@ span {
 .icon:hover {
   border-radius: 50%;
 }
-.icons img:hover {
-  background: #f6f6f6;
+.icons i:hover {
+  color: #666;
   fill: #888;
-  /* transition: all ease-in 0.2s; */
+  transition: all ease-in 0.2s;
 }
